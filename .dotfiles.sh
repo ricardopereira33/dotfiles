@@ -17,5 +17,5 @@ done
 if ! eval "$GIT_COMMAND diff-index --quiet HEAD --"; then
   COMMIT_MESSAGE="\"Automatic backup at $(date +%s).\""
   eval "$GIT_COMMAND commit -m $COMMIT_MESSAGE"
-  eval "$GIT_COMMAND push origin master"
+  eval "$GIT_COMMAND push -u origin master"
 fi
