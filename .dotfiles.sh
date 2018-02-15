@@ -5,7 +5,7 @@ FILES=( ".vimrc" ".oh-my-zsh/themes/dst.zsh-theme" ".zshrc" ".gitconfig" ".confi
 GIT_COMMAND="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # Wait 1 minute before attempting to backup dotfiles.
-sleep 60
+sleep 15
 
 # Add files to git staging.
 for FILE in "${FILES[@]}"
