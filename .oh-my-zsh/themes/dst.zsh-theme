@@ -10,7 +10,7 @@ function prompt_char {
 
 PROMPT='%(?, ,%{$fg[orange]%}%{$reset_color%}
 )
-%{$fg[red]%}%n%{$reset_color%} @ %{$FG[039]%}Macbook Air$reset_color%: %{$FG[222]%}%3~%{$reset_color%}$(git_prompt_info)
+%{$fg[red]%}%n%{$reset_color%} @ %{$FG[039]%}MacbookAir$reset_color%: %{$FG[222]%}%3~%{$reset_color%}$(git_prompt_info)
 %_ $(prompt_char) '
 
 
