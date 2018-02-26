@@ -5,7 +5,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}✗"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 function prompt_char {
-	if [ $UID -eq 0 ]; then echo "%{$fg[red]%}#%{$reset_color%}"; else echo %{$fg_bold[reset_color]%}▶; fi
+	if [ $UID -eq 0 ]; then echo "%{$fg[red]%}#%{$reset_color%}"; else echo %{$fg_bold[reset_color]%}❯; fi
 }
 
 PROMPT='%(?, ,%{$fg[orange]%}%{$reset_color%}
