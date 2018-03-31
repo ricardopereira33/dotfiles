@@ -91,7 +91,6 @@ function activate(){
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ggrep="ggrep --color=auto"
-alias sicstus="/usr/local/sicstus4.3.0/bin/sicstus-4.3.0"
 alias dotnet="/usr/local/share/dotnet/./dotnet"
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias sleeplock="pmset displaysleepnow"
@@ -104,6 +103,9 @@ alias speedtest='curl -o /dev/null http://speedtest.wdc01.softlayer.com/download
 alias mysql='/usr/local/mysql/bin/mysql'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias bat="battery"
+alias zshrc="v ~/.zshrc"
+alias reload="source ~/.zshrc"
+alias updot="sh ~/.dotfiles.sh"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/curl/bin:$PATH"
