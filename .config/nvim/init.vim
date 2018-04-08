@@ -26,6 +26,7 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'neomake/neomake'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
@@ -98,6 +99,7 @@ nmap <C-t> :TagbarToggle<CR>
 " vim-airline settings
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'gruvbox'
+"let g:airline_theme = 'nord'
 let g:airline_powerline_fonts = 1
 
 " themes and colors
@@ -105,6 +107,7 @@ let NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 set termguicolors
 set background=dark
 colorscheme gruvbox
+" colorscheme nord
 let g:seiya_auto_enable=1
 let g:seiya_target_groups = ['guibg']
 

@@ -77,10 +77,12 @@ export SVN_EDITOR=nvim
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Functions
 function activate(){
     export VIRTUAL_ENV_DISABLE_PROMPT='1'
     source ./$1/bin/activate
 }
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
