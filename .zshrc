@@ -83,6 +83,10 @@ function activate(){
     source ./$1/bin/activate
 }
 
+# ANTIBODY
+
+source <(antibody init)
+antibody bundle < ~/.zsh_plugins.txt
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
