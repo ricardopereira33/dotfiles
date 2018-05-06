@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # List of dotfiles to be version controled.
-FILES=( ".vimrc" ".oh-my-zsh/themes/dst.zsh-theme" ".zshrc" ".zsh_plugins.txt" ".gitconfig" ".config/nvim/init.vim" ".dotfiles.sh" )
+FILES=( ".vimrc" ".oh-my-zsh/themes/dst.zsh-theme" "README.md" ".zshrc" ".zsh_plugins.txt" ".gitconfig" ".config/nvim/init.vim" ".dotfiles.sh" )
 GIT_COMMAND="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 # Wait 5 seconds before attempting to backup dotfiles.
