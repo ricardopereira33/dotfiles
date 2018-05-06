@@ -3,7 +3,6 @@
 </div>
 
 #
-
 ### Requirements
 
 - [Iterm2](https://iterm2.com/)
