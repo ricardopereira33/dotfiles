@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="http://pmjonesg.ca/dotfile.PNG" width="240" height="220">
+  <img src="https://dotfiles.github.io/images/dotfiles-logo.png" width="240" height="220">
 </div>
 
 #
