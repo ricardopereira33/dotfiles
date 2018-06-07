@@ -107,7 +107,7 @@ let NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 set termguicolors
 set background=dark
 colorscheme gruvbox
-" colorscheme nord
+"colorscheme nord
 let g:seiya_auto_enable=1
 let g:seiya_target_groups = ['guibg']
 

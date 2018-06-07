@@ -108,7 +108,7 @@ alias o="open"
 alias speedtest='curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias bat="battery"
+alias b="battery"
 alias zshrc="v ~/.zshrc"
 alias reload="source ~/.zshrc"
 alias gpdot="sh ~/.dotfiles.sh"
