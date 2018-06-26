@@ -14,6 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'Shougo/neosnippet' | Plug 'Shougo/neosnippet-snippets'
+Plug 'sheerun/vim-polyglot'
 
 " Helpers
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -23,6 +24,7 @@ Plug 'xolox/vim-misc' | Plug 'xolox/vim-session'
 Plug 'haya14busa/incsearch.vim'
 
 " IDE
+Plug 'joshdick/onedark.vim'
 Plug 'neomake/neomake'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
@@ -98,16 +100,28 @@ nmap <C-t> :TagbarToggle<CR>
 
 " vim-airline settings
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = 'gruvbox'
+"let g:airline_theme = 'gruvbox'
 "let g:airline_theme = 'nord'
+let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
+
+if (empty($TMUX))
+  if (has("nvim"))
+    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+  endif
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
 
 " themes and colors
 let NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 set termguicolors
 set background=dark
-colorscheme gruvbox
+"colorscheme gruvbox
 "colorscheme nord
+colorscheme onedark
 let g:seiya_auto_enable=1
 let g:seiya_target_groups = ['guibg']
 
