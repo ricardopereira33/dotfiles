@@ -111,7 +111,7 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias b="battery"
 alias zshrc="v ~/.zshrc"
 alias reload="source ~/.zshrc"
-alias gpdot="sh ~/.dotfiles.sh"
+alias gpdot="sudo sh ~/.dotfiles.sh"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/curl/bin:$PATH"

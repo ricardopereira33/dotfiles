@@ -29,6 +29,8 @@ Plug 'neomake/neomake'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'arcticicestudio/nord-vim'
+Plug 'elixir-editors/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 
 call plug#end()
 
