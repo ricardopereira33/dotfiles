@@ -116,3 +116,6 @@ alias gpdot="sudo sh ~/.dotfiles.sh"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/curl/bin:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="/usr/local/Cellar/qt@5.5/5.5.1_1/bin:$PATH"
