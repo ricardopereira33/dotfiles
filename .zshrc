@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:/Users/Ricardo/bin::/Users/Ricardo/.cache/rebar3/bin:/usr/local/Cellar/python/2.7.14_3/bin"
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:/Users/Ricardo/bin::/Users/Ricardo/.cache/rebar3/bin:/usr/local/Cellar/python/2.7.14_3/bin:/usr/local/go/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -119,3 +119,4 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="/usr/local/Cellar/qt@5.5/5.5.1_1/bin:$PATH"
+export GOPATH="$HOME/go"
