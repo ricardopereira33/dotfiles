@@ -7,8 +7,6 @@ GIT_COMMAND="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 # Wait 5 seconds before attempting to backup dotfiles.
 sleep 5
 
-eval "$GIT_COMMAND rm .oh-my-zsh/themes/dst.zsh-theme"
-
 # Add files to git staging.
 for FILE in "${FILES[@]}"
 do
