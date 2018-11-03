@@ -1,9 +1,4 @@
-<div align="center">
-  <img src="https://dotfiles.github.io/images/dotfiles-logo.png" width="560" height="200">
-</div>
-
-#
-### Requirements
+## Requirements
 
 - [Iterm2](https://iterm2.com/)
 - [Nord](https://github.com/arcticicestudio/nord-iterm2)
