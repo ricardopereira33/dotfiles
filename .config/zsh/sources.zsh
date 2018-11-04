@@ -11,4 +11,4 @@ function activate(){
 
 # ANTIBODY
 source <(antibody init)
-antibody bundle < ~/.zsh_plugins.txt
+antibody bundle < ~/.config/zsh/zsh_plugins.txt
