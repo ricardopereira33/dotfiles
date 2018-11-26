@@ -1,4 +1,8 @@
-plugins=(git)
+plugins=(
+    git
+    colored-man-pages
+    extract
+)
 
 source $ZSH/oh-my-zsh.sh
 source $ZSH/lib/spectrum.zsh
