@@ -2,17 +2,20 @@ export ZSH=/Users/Ricardo/.oh-my-zsh
 export UPDATE_ZSH_DAYS=30
 export SVN_EDITOR=nvim
 export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:/Users/Ricardo/bin::/Users/Ricardo/.cache/rebar3/bin:/usr/local/Cellar/python/2.7.14_3/bin:/usr/local/go/bin"
-
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/curl/bin:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="/usr/local/Cellar/qt@5.5/5.5.1_1/bin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
 export GOPATH="$HOME/go"
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+export LANG="en_US.UTF-8"
 
 # Nutrium environment variables
-
 export INTERCOM_APP_ID=rlc1m5v8
 export INTERCOM_ACCESS_TOKEN=dG9rOjRkOGY2YzgwXzI4ZGFfNDQ4ZV84OTZkXzcyZGI2YjcwZTY4YzoxOjA=
 export FIREBASE_CLOUD_MESSAGING_SERVER_KEY=AIzaSyDB9odnnWv6Cuz42HqLHiSfKsXvwqR3v2g
@@ -27,5 +30,8 @@ export RECAPTCHA_SITE_KEY=6LftIl0UAAAAAFU2i-pdxqEmVEDQwG388G_b1CnP
 export RECAPTCHA_SECRET_KEY=6LftIl0UAAAAAP4te-I0nrYhZRTUY70TAAwJFDmM
 export PUBLIC_DOMAIN=https://nutrium.xyz
 export DELAYED_JOB_NUMBER_OF_WORKERS=1
-
+export OPEN_EXCHANGE_RATES_APP_ID=110efd0e2c65477b8b15c3cd2f7e0cf9
+export MAILJET_API_KEY=6a373f466816b6635818f5f0590a270a
+export MAILJET_SECRET_KEY=46f1ab7e1be1813409f3b34f243d7740
+export ERL_AFLAGS="-kernel shell_history enabled"
 
