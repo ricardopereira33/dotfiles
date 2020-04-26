@@ -15,6 +15,4 @@ PROMPT='%(?, ,%{$fg[orange]%}%{$reset_color%})
 %{$FG[038]%}%3~%{$reset_color%}$(git_prompt_info)
 %_ %(?.$RIGHT.$ERROR) '
 
-RPROMPT='$(virtualenv_info)'
-
-
+RPROMPT='%{$(echotc UP 1)%}%{$FG[240]%}[%*]%{$reset_color%} $(virtualenv_info)%{$(echotc DO 1)%}'
