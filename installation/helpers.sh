@@ -102,7 +102,7 @@ function asdf_install {
 function link {
   if [ ! -L $2 ]; then
     info "Configure $2..."
-    ln -s $1 $2 # > /dev/null 2>&1
+    ln -s $1 $2
 
     if [[ $? -eq 0 ]]; then
       success "Successfully configured $2."
