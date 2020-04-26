@@ -1,8 +1,9 @@
 ZSH_THEME="z33"
+DOTFILES_DIR="$HOME/Documents/dotfiles"
 
-source $HOME/.config/zsh/exports.zsh
-source $HOME/.config/zsh/sources.zsh
-source $HOME/.config/zsh/aliases.zsh
+source $DOTFILES_DIR/zsh/exports.zsh
+source $DOTFILES_DIR/zsh/sources.zsh
+source $DOTFILES_DIR/zsh/aliases.zsh
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash

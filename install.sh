@@ -14,6 +14,7 @@
 # -------------------------------------------------------------------------
 
 # Load functions that simplify the script
+source ./installation/constants.sh
 source ./installation/helpers.sh
 
 # Directory of the dotfiles
@@ -44,7 +45,7 @@ install_cli "Asdf" "brew install asdf" "! command -v asdf"
 
 install_cli "Zsh" "brew install zsh" "! command -v zsh"
 install_cli "Oh-my-zsh" \
-  "sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"" \
+  'sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"' \
   '[ ! -d "$HOME/.oh-my-zsh" ]'
 
 install_cli "Antibody" "brew install getantibody/tap/antibody" "! command -v antibody"
@@ -57,7 +58,7 @@ install_cli "NeoVim" \
   "brew install neovim && pip3 install neovim" \
   "! command -v nvim"
 
-asdf_install ruby   rb
+asdf_install ruby   irb
 asdf_install erlang erl
 asdf_install elixir iex
 
@@ -79,8 +80,6 @@ link $DIR/.vimrc $HOME/.vimrc
 # Vim Plug
 info "Installing Vim Plug..."
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 success "Successfully installed Vim Plug."
 

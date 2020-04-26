@@ -8,14 +8,12 @@
 #
 # ------------------------------------------------------------------------
 
-source "./constants.sh"
-
 # Print helpers
 function print     { printf "$1%-9s$RESET  %s\n" "[$2]" "$3"; }
-function info      { print $WHITE "INFO" $1; }
-function success   { print $GREEN "SUCCESS" $1; }
-function no_effect { print $BLUE "SUCCESS" $1; }
-function error     { print $RED "ERROR" $1; }
+function info      { print $WHITE "INFO"    "$1"; }
+function success   { print $GREEN "SUCCESS" "$1"; }
+function no_effect { print $BLUE  "SUCCESS" "$1"; }
+function error     { print $RED   "ERROR"   "$1"; }
 
 # --------------------------------
 # Package Manager
@@ -35,6 +33,19 @@ function install_homebrew {
 # --------------------------------
 # Installation scripts
 # --------------------------------
+
+# Suppress the output of eval command
+# silent_eval <tool> <command>
+function silent_eval {
+  info "Installing $1..."
+  eval $2 > /dev/null 2>&1
+
+  if [[ $? -eq 0 ]]; then
+    success "Successfully installed $1."
+  else
+    error "Failed to install $1."
+  fi
+}
 
 # brew_install_app <name> <brew_cask_id>
 function brew_install_app {
@@ -71,11 +82,11 @@ function install_cli {
 
 # asdf_install <name> <command_provided_by_tool>
 function asdf_install {
-  if [[ ! command -v $2 ]]; then
+  if ! command -v $2 > /dev/null 2>&1; then
     info "Installing $1..."
 
-    asdf plugin-add $1 > /dev/null 2>&1
-    asdf install $1 > /dev/null 2>&1
+    asdf plugin-add $1             > /dev/null 2>&1
+    asdf install $1                > /dev/null 2>&1
     asdf global $1 $(asdf list $1) > /dev/null 2>&1
 
     success "Successfully installed $1."
@@ -84,27 +95,14 @@ function asdf_install {
   fi
 }
 
-# Suppress the output of eval command
-# silent_eval <tool> <command>
-function silent_eval {
-  info "Installing $1..."
-  eval $2 > /dev/null 2>&1
-
-  if [[ $? -eq 0 ]]; then
-    success "Successfully installed $1."
-  else
-    error "Failed to install $1."
-  fi
-}
-
 # --------------------------------
 # Links
 # --------------------------------
 
 function link {
-  info "Configure $2..."
-  if [ ! -L $2]; then
-    ln -s $1 $2 > /dev/null 2>&1
+  if [ ! -L $2 ]; then
+    info "Configure $2..."
+    ln -s $1 $2 # > /dev/null 2>&1
 
     if [[ $? -eq 0 ]]; then
       success "Successfully configured $2."
