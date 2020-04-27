@@ -18,7 +18,7 @@ source ./installation/constants.sh
 source ./installation/helpers.sh
 
 # Directory of the dotfiles
-DIR=$(dirname "$0")
+DIR=$HOME/Documents/dotfiles
 
 # -------------------------------------------------------------------------
 # Command line tools
@@ -58,6 +58,11 @@ install_cli "NeoVim" \
   "brew install neovim && pip3 install neovim" \
   "! command -v nvim"
 
+install_cli "Vim Plug" \
+  'curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' \
+  "[ ! -f ~/.vim/autoload/plug.vim ]"
+
 asdf_install ruby   irb
 asdf_install erlang erl
 asdf_install elixir iex
@@ -77,17 +82,11 @@ link $DIR/zsh    $HOME/.config/zsh
 link $DIR/.zshrc $HOME/.zshrc
 link $DIR/.vimrc $HOME/.vimrc
 
-# Vim Plug
-info "Installing Vim Plug..."
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-success "Successfully installed Vim Plug."
-
 # Fira code font
+info "Installing fira-code font..."
 brew tap homebrew/cask-fonts     > /dev/null 2>&1
 brew cask install font-fira-code > /dev/null 2>&1
-
-source $HOME/.zshrc
+success "Successfully installed fira-code."
 
 # -------------------------------------------------------------------------
 # Applications
@@ -112,3 +111,5 @@ brew_install_app "Docker"      "docker"
 brew_install_app "Tunnelblick" "tunnelblick"
 
 mas_install_app "Spark"
+
+zsh

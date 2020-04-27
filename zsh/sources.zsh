@@ -8,7 +8,7 @@ source $ZSH/oh-my-zsh.sh
 source $ZSH/lib/spectrum.zsh
 
 # Functions
-function activate(){
+function activate() {
   export VIRTUAL_ENV_DISABLE_PROMPT='1'
   source ./$1/bin/activate
 }

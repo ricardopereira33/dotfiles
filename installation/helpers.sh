@@ -52,7 +52,7 @@ function brew_install_app {
   if [ ! -d "/Applications/$1.app" ]; then
     silent_eval $1 "brew cask install $2"
   else
-    success "$1 is already installed."
+    no_effect "$1 is already installed."
   fi
 }
 
