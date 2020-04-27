@@ -42,13 +42,15 @@ install_homebrew
 
 install_cli "Mas"  "brew install mas"  "! command -v mas"
 install_cli "Asdf" "brew install asdf" "! command -v asdf"
+install_cli "Zsh"  "brew install zsh"  "! command -v zsh"
 
-install_cli "Zsh" "brew install zsh" "! command -v zsh"
 install_cli "Oh-my-zsh" \
   'sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"' \
   '[ ! -d "$HOME/.oh-my-zsh" ]'
 
-install_cli "Antibody" "brew install getantibody/tap/antibody" "! command -v antibody"
+install_cli "Antibody" \
+  "brew install getantibody/tap/antibody" \
+  "! command -v antibody"
 
 install_cli "Python 2.7" "brew install python@2" "! command -v python2.7"
 install_cli "Python 3"   "brew install python"   "! command -v python3"
