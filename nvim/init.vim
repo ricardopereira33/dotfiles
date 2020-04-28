@@ -1,8 +1,6 @@
-DOTFILES_DIR="$HOME/Documents/dotfiles"
-
-source $DOTFILES_DIR/nvim/rc/plugins.vim
-source $DOTFILES_DIR/nvim/rc/sets.vim
-source $DOTFILES_DIR/nvim/rc/lets.vim
-source $DOTFILES_DIR/nvim/rc/maps.vim
-source $DOTFILES_DIR/nvim/rc/colorschemes.vim
-source $DOTFILES_DIR/nvim/rc/autocmds.vim
+source $HOME/Documents/dotfiles/nvim/rc/plugins.vim
+source $HOME/Documents/dotfiles/nvim/rc/sets.vim
+source $HOME/Documents/dotfiles/nvim/rc/lets.vim
+source $HOME/Documents/dotfiles/nvim/rc/maps.vim
+source $HOME/Documents/dotfiles/nvim/rc/colorschemes.vim
+source $HOME/Documents/dotfiles/nvim/rc/autocmds.vim

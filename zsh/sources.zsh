@@ -13,6 +13,9 @@ function activate() {
   source ./$1/bin/activate
 }
 
+# Fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # ANTIBODY
 source <(antibody init)
 antibody bundle < ~/.config/zsh/zsh_plugins.txt

@@ -9,3 +9,5 @@ source $DOTFILES_DIR/zsh/bindkeys.zsh
 
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

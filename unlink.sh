@@ -5,8 +5,7 @@ if [ "$#" -ne 3 ]; then
   exit 1
 fi
 
-
-echo $paths
+source ./installation/constants.sh
 
 function backup {
   for path in $paths; do
@@ -28,7 +27,4 @@ function remove {
     rm -rf $path
   done
 }
-
-
-
 
