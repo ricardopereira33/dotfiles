@@ -14,3 +14,12 @@ RESET='\033[0m'
 
 # Dotfiles location.
 DOTFILES_PATH=~/Documents/dotfiles
+
+CONFIGS=(
+  $HOME/.oh-my-zsh/themes/z33.zsh-theme
+  $HOME/.vimrc
+  $HOME/.zshrc
+  $HOME/.config/zsh
+  $HOME/.config/nvim
+  $HOME/.config
+)
