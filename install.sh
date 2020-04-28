@@ -52,9 +52,23 @@ install_cli "Antibody" \
   "brew install getantibody/tap/antibody" \
   "! command -v antibody"
 
+install_cli "Openssl"  "brew install openssl"  "! command -v openssl"
+install_cli "Autoconf" "brew install autoconf" "! command -v autoconf"
+install_cli "Automake" "brew install automake" "! command -v automake"
+install_cli "Libtool"  "brew install libtool"  "! command -v libtool"
+
 install_cli "Python 2.7" "brew install python@2" "! command -v python2.7"
 install_cli "Python 3"   "brew install python"   "! command -v python3"
 install_cli "Node"       "brew install node"     "! command -v npm"
+install_cli "Go"         "brew install go"       "! command -v go"
+
+install_cli "fzf" \
+  "brew install fzf && $(brew --prefix)/opt/fzf/install" \
+  "! command -v fzf"
+
+install_cli "Diff-so-fancy" \
+  "brew install diff-so-fancy" \
+  "! command -v diff-so-fancy"
 
 install_cli "NeoVim" \
   "brew install neovim && pip3 install neovim" \
@@ -79,10 +93,11 @@ fi
 
 link $DIR/themes/zsh/z33.zsh-theme $HOME/.oh-my-zsh/themes/z33.zsh-theme
 
-link $DIR/nvim   $HOME/.config/nvim
-link $DIR/zsh    $HOME/.config/zsh
-link $DIR/.zshrc $HOME/.zshrc
-link $DIR/.vimrc $HOME/.vimrc
+link $DIR/nvim       $HOME/.config/nvim
+link $DIR/zsh        $HOME/.config/zsh
+link $DIR/.zshrc     $HOME/.zshrc
+link $DIR/.vimrc     $HOME/.vimrc
+link $DIR/.gitconfig $HOME/.gitconfig
 
 # Fira code font
 info "Installing fira-code font..."
