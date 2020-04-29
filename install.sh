@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/local/bin/bash
 
 # -------------------------------------------------------------------------
 # Installation
@@ -16,9 +16,6 @@
 # Load functions that simplify the script
 source ./installation/constants.sh
 source ./installation/helpers.sh
-
-# Directory of the dotfiles
-DIR=$HOME/Documents/dotfiles
 
 # -------------------------------------------------------------------------
 # Command line tools
@@ -42,6 +39,7 @@ install_homebrew
 
 install_cli "Mas"  "brew install mas"  "! command -v mas"
 install_cli "Asdf" "brew install asdf" "! command -v asdf"
+install_cli "Bash" "brew install bash" "! command -v /usr/local/bin/bash --verison"
 install_cli "Zsh"  "brew install zsh"  "! command -v zsh"
 
 install_cli "Oh-my-zsh" \
@@ -91,13 +89,9 @@ if [ ! -d $HOME/.config ]; then
   mkdir $HOME/.config
 fi
 
-link $DIR/themes/zsh/z33.zsh-theme $HOME/.oh-my-zsh/themes/z33.zsh-theme
-
-link $DIR/nvim       $HOME/.config/nvim
-link $DIR/zsh        $HOME/.config/zsh
-link $DIR/.zshrc     $HOME/.zshrc
-link $DIR/.vimrc     $HOME/.vimrc
-link $DIR/.gitconfig $HOME/.gitconfig
+for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
+  link $DOTFILE_PATH ${CONFIG_PATHS[$DOTFILE_PATH]}
+done
 
 # Fira code font
 info "Installing fira-code font..."
