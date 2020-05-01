@@ -37,6 +37,12 @@ au BufNewFile,BufRead *.py set
     \ shiftwidth=4
     \ textwidth=79
 
+" elixir, ruby, bash, and scala special settings
+au BufNewFile,BufRead *.ex,*.exs,*.rb,*.sh,*.scala set
+    \ tabstop=2
+    \ softtabstop=2
+    \ shiftwidth=2
+
 set wildignore+=.git,*.swp,*pyc,*pyo,*.png,*.jpg,*.gif,*.ai,*.jpeg,*.psd,*.jar,*.zip,*.gem,log/**,tmp/**,coverage/**,rdoc/**,output_*,*.xpi,doc/**
 
 " conceal markers
@@ -46,4 +52,3 @@ endif
 
 " incsearch.vim
 set hlsearch
-

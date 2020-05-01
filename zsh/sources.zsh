@@ -4,18 +4,17 @@ plugins=(
   extract
 )
 
+# zsh
 source $ZSH/oh-my-zsh.sh
 source $ZSH/lib/spectrum.zsh
 
-# Functions
-function activate() {
-  export VIRTUAL_ENV_DISABLE_PROMPT='1'
-  source ./$1/bin/activate
-}
+# asdf
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash
 
-# Fuzzy finder
+# Fuzzy Finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# ANTIBODY
+# Antibody
 source <(antibody init)
 antibody bundle < ~/.config/zsh/zsh_plugins.txt

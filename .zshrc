@@ -6,8 +6,3 @@ source $DOTFILES_DIR/zsh/sources.zsh
 source $DOTFILES_DIR/zsh/aliases.zsh
 source $DOTFILES_DIR/zsh/functions.zsh
 source $DOTFILES_DIR/zsh/bindkeys.zsh
-
-source $HOME/.asdf/asdf.sh
-source $HOME/.asdf/completions/asdf.bash
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

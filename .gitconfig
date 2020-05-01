@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Ricardo Pereira
-	email = ricardo.agp.914@gmail.com
+    name = Ricardo Pereira
+    email = ricardo.agp.914@gmail.com
 
 [core]
     editor = /usr/local/bin/nvim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+    pager = diff-so-fancy | less --tabs=4 -RFX

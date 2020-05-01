@@ -10,8 +10,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 " Completions and snippets
 Plug 'jiangmiao/auto-pairs'
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'Shougo/neosnippet' | Plug 'Shougo/neosnippet-snippets'
 Plug 'sheerun/vim-polyglot'

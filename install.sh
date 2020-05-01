@@ -39,7 +39,7 @@ install_homebrew
 
 install_cli "Mas"  "brew install mas"  "! command -v mas"
 install_cli "Asdf" "brew install asdf" "! command -v asdf"
-install_cli "Bash" "brew install bash" "! command -v /usr/local/bin/bash --verison"
+install_cli "Bash" "brew install bash" "! command -v /usr/local/bin/bash"
 install_cli "Zsh"  "brew install zsh"  "! command -v zsh"
 
 install_cli "Oh-my-zsh" \
