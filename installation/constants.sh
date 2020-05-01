@@ -18,8 +18,8 @@ DIR=$HOME/Documents/dotfiles
 
 declare -A CONFIG_PATHS=(
   ["$DIR/zsh/z33.zsh-theme"]="$HOME/.oh-my-zsh/themes/z33.zsh-theme"
-  ["$DIR/zsh/"]="$HOME/.config/zsh"
-  ["$DIR/nvim/"]="$HOME/.config/nvim"
+  ["$DIR/zsh"]="$HOME/.config/zsh"
+  ["$DIR/nvim"]="$HOME/.config/nvim"
   ["$DIR/.vimrc"]="$HOME/.vimrc"
   ["$DIR/.zshrc"]="$HOME/.zshrc"
   ["$DIR/.gitconfig"]="$HOME/.gitconfig"

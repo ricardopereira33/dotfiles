@@ -2,59 +2,37 @@
 
 source ./installation/constants.sh
 
-function backup {
-  for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
-    mv $DOTFILE_PATH ${DOTFILE_PATH}_backup
-  done
-}
-
-function rollback {
-  for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
-    if [ ! -f ${DOTFILE_PATH}_backup ] || [ ! -d ${DOTFILE_PATH}_backup ]; then
-      mv ${DOTFILE_PATH}_backup $path
-      rm -rf ${DOTFILE_PATH}_backup
-    fi
-  done
-}
+if [[ $# -ne 1 ]]; then
+  printf "$RED[ERROR]$RESET You need to pass one of these commands: 'remove' or 'link'\n"
+  exit 1
+fi
 
 function remove {
-  for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
-    rm -rf $DOTFILE_PATH
+  for LINK_PATH in ${CONFIG_PATHS[@]}; do
+    rm -rf $LINK_PATH
   done
 }
 
 function link {
   for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
-    link $DOTFILE_PATH ${CONFIG_PATHS[$DOTFILE_PATH]}
+    ln -s $DOTFILE_PATH ${CONFIG_PATHS[$DOTFILE_PATH]}
   done
 }
 
 case $1 in
-  "backup")
-    printf "$GREEN[BACKUP]$RESET Backup all configurations..."
-    backup
-    printf "$GREEN[BACKUP]$RESET Done."
-    ;;
-
-  "rollback")
-    printf "$GREEN[ROLLBACK]$RESET Rollback all configurations..."
-    rollback
-    printf "$GREEN[ROLLBACK]$RESET Done."
-    ;;
-
   "remove")
-    printf "$YELLOW[REMOVE]$RESET Remove all configurations..."
+    printf "$YELLOW[REMOVE]$RESET Remove all configurations...\n"
     remove
-    printf "$YELLOW[REMOVE]$RESET Done."
+    printf "$YELLOW[REMOVE]$RESET Done.\n"
     ;;
 
   "link")
-    printf "$GREEN[LINK]$RESET Link all configurations..."
+    printf "$GREEN[LINK]$RESET Link all configurations...\n"
     link
-    printf "$GREEN[LINK]$RESET Done."
+    printf "$GREEN[LINK]$RESET Done.\n"
     ;;
 
   *)
-    printf "$RED[INVALID]$RESET Wrong command!"
+    printf "$RED[INVALID]$RESET Wrong command!\n"
   ;;
 esac
