@@ -8,3 +8,9 @@ alias mysql='/usr/local/mysql/bin/mysql'
 alias b="battery"
 alias zshrc="v ~/.zshrc"
 alias reload="source ~/.zshrc"
+
+# Docker
+alias d=docker
+alias dc=docker-compose
+alias dp="docker ps"
+alias dpa="docker ps -a"

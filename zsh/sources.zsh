@@ -10,7 +10,6 @@ source $ZSH/lib/spectrum.zsh
 
 # asdf
 source $HOME/.asdf/asdf.sh
-source $HOME/.asdf/completions/asdf.bash
 
 # Fuzzy Finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

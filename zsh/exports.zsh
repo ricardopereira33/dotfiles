@@ -20,6 +20,3 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig:/usr/local/opt/icu4
 export GOPATH="$HOME/go"
 export LANG="en_US.UTF-8"
 export ERL_AFLAGS="-kernel shell_history enabled"
-
-
-

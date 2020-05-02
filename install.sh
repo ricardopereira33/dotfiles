@@ -50,15 +50,25 @@ install_cli "Antibody" \
   "brew install getantibody/tap/antibody" \
   "! command -v antibody"
 
+# Dependencies
 install_cli "Openssl"  "brew install openssl"  "! command -v openssl"
 install_cli "Autoconf" "brew install autoconf" "! command -v autoconf"
 install_cli "Automake" "brew install automake" "! command -v automake"
 install_cli "Libtool"  "brew install libtool"  "! command -v libtool"
 
+# Progamming languages
 install_cli "Python 2.7" "brew install python@2" "! command -v python2.7"
 install_cli "Python 3"   "brew install python"   "! command -v python3"
 install_cli "Node"       "brew install node"     "! command -v npm"
 install_cli "Go"         "brew install go"       "! command -v go"
+
+asdf_install ruby   irb
+asdf_install erlang erl
+asdf_install elixir iex
+
+# Tools
+install_cli "bat"  "brew install bat"  "! command -v bat"
+install_cli "tldr" "brew install tldr" "! command -v tldr"
 
 install_cli "fzf" \
   "brew install fzf && $(brew --prefix)/opt/fzf/install" \
@@ -68,6 +78,7 @@ install_cli "Diff-so-fancy" \
   "brew install diff-so-fancy" \
   "! command -v diff-so-fancy"
 
+# Vim
 install_cli "NeoVim" \
   "brew install neovim && pip3 install neovim" \
   "! command -v nvim"
@@ -76,10 +87,6 @@ install_cli "Vim Plug" \
   'curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' \
   "[ ! -f ~/.vim/autoload/plug.vim ]"
-
-asdf_install ruby   irb
-asdf_install erlang erl
-asdf_install elixir iex
 
 # -------------------------------------------------------------------------
 # Configurations
