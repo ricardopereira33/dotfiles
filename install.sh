@@ -127,6 +127,7 @@ brew_install_app "Spectacle"   "spectacle"
 brew_install_app "Postman"     "postman"
 brew_install_app "Docker"      "docker"
 brew_install_app "Tunnelblick" "tunnelblick"
+brew_install_app "VLC"         "vlc"
 
 mas_install_app "Spark"
 
