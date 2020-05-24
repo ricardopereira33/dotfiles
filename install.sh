@@ -62,6 +62,10 @@ install_cli "Python 3"   "brew install python"   "! command -v python3"
 install_cli "Node"       "brew install node"     "! command -v npm"
 install_cli "Go"         "brew install go"       "! command -v go"
 
+install_cli "Rust" \
+  "curl https://sh.rustup.rs -sSf | sh" \
+  "! command -v cargo"
+
 asdf_install ruby   irb
 asdf_install erlang erl
 asdf_install elixir iex
@@ -77,6 +81,10 @@ install_cli "fzf" \
 install_cli "Diff-so-fancy" \
   "brew install diff-so-fancy" \
   "! command -v diff-so-fancy"
+
+install_cli "Du+Rust" \
+  "cargo install du-dust" \
+  "! command -v dust"
 
 # Vim
 install_cli "NeoVim" \

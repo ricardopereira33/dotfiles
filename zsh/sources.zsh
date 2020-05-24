@@ -8,6 +8,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source $ZSH/lib/spectrum.zsh
 
+# Rust
+source $HOME/.cargo/env
+
 # asdf
 source $HOME/.asdf/asdf.sh
 
