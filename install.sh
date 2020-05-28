@@ -73,6 +73,7 @@ asdf_install elixir iex
 # Tools
 install_cli "bat"  "brew install bat"  "! command -v bat"
 install_cli "tldr" "brew install tldr" "! command -v tldr"
+install_cli "sd"   "cargo install sd"  "! command -v sd"
 
 install_cli "fzf" \
   "brew install fzf && $(brew --prefix)/opt/fzf/install" \
