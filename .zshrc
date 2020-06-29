@@ -1,4 +1,3 @@
-ZSH_THEME="z33"
 DOTFILES_DIR="$HOME/Documents/dotfiles"
 
 for file in $DOTFILES_DIR/zsh/*.zsh; do

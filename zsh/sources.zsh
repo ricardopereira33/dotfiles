@@ -4,6 +4,8 @@ plugins=(
   extract
 )
 
+eval "$(rbenv init -)"
+
 # zsh
 source $ZSH/oh-my-zsh.sh
 source $ZSH/lib/spectrum.zsh

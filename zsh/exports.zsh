@@ -14,8 +14,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.asdf/shims/:$PATH"
 
-eval "$(rbenv init -)"
-
 # icu4c & openssl
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
