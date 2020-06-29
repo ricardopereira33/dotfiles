@@ -1,0 +1,45 @@
+[git_branch]
+style = "bold fg:green"
+symbol = " "
+
+[git_status]
+prefix = ""
+suffix = " "
+
+[cmd_duration]
+prefix = ""
+style = "bold #929696"
+
+[character]
+style_success = "white"
+
+[python]
+disabled = true
+
+[ruby]
+disabled = true
+
+[java]
+disabled = true
+
+[elixir]
+disabled = true
+
+[erlang]
+disabled = true
+
+[rust]
+disabled = true
+
+[golang]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
+
+[aws]
+disabled = true
+

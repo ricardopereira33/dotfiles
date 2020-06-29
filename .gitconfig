@@ -2,7 +2,20 @@
 [user]
     name = Ricardo Pereira
     email = ricardo.agp.914@gmail.com
+    signingkey = 30E0F771
 
 [core]
     editor = /usr/local/bin/nvim
     pager = diff-so-fancy | less --tabs=4 -RFX
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+[commit]
+    gpgsign = true
+
+[gpg]
+    program = /usr/local/bin/gpg
+
+[fetch]
+    prune = true

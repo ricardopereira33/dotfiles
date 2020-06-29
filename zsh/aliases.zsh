@@ -1,13 +1,11 @@
-alias ggrep="ggrep --color=auto"
-alias protoc="/Users/Ricardo/Documents/Mestrado/PSD/protoc/bin/./protoc"
 alias v="nvim"
-alias py="python3"
 alias c="clear"
 alias o="open"
+alias ggrep="ggrep --color=auto"
 alias mysql='/usr/local/mysql/bin/mysql'
-alias b="battery"
-alias zshrc="v ~/.zshrc"
-alias reload="source ~/.zshrc"
+
+alias py="python3"
+alias rb="ruby"
 
 # Docker
 alias d=docker

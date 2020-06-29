@@ -50,6 +50,10 @@ install_cli "Antibody" \
   "brew install getantibody/tap/antibody" \
   "! command -v antibody"
 
+install_cli "Starship" \
+  "brew install starship" \
+  "! command -v starship"
+
 # Dependencies
 install_cli "Openssl"  "brew install openssl"  "! command -v openssl"
 install_cli "Autoconf" "brew install autoconf" "! command -v autoconf"

@@ -17,7 +17,7 @@ RESET='\033[0m'
 DIR=$HOME/Documents/dotfiles
 
 declare -A CONFIG_PATHS=(
-  ["$DIR/zsh/z33.zsh-theme"]="$HOME/.oh-my-zsh/themes/z33.zsh-theme"
+  ["$DIR/zsh/starship.toml"]="$HOME/.config/starship.toml"
   ["$DIR/zsh"]="$HOME/.config/zsh"
   ["$DIR/nvim"]="$HOME/.config/nvim"
   ["$DIR/.vimrc"]="$HOME/.vimrc"

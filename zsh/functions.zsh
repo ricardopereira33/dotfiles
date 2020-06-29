@@ -65,23 +65,14 @@ function activate() {
   source ./$1/bin/activate
 }
 
-# - - - - - -
-# - SPOTIFY -
-# - - - - - -
+# - - - -
+# - Git -
+# - - - -
 
-function artist() {
-  spotify status artist
-}
-
-function music() {
-  spotify status track
-}
-
-function spotify_status() {
-  artist=$( spotify status artist | sed "s/ /_/g" )
-  music=$( spotify status track | sed "s/ /_/g" )
-
-  echo "$artist-_-$music"
+function grmb() {
+  git branch --merged | \
+      egrep -v "(^\*|master|staging)" | \
+      xargs git branch -d
 }
 
 # - - - - -
