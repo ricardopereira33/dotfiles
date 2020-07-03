@@ -1283,12 +1283,14 @@
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>0 124 224 275 0 0 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>3435 490 400 129 2560 41 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 381 620 392 0 0 1440 900 </string>
+	<string>970 508 620 392 0 0 2560 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>317 320 934 453 0 0 1440 877 </string>
+	<string>2560 41 1440 877 2560 41 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>295 269 934 453 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1461,13 +1463,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.77356863021850586</real>
+				<real>0.949432373046875</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.70216643810272217</real>
+				<real>0.68650346707461551</real>
 				<key>Red Component</key>
-				<real>0.4660642147064209</real>
+				<real>0.36630855640396476</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
@@ -2497,6 +2499,7 @@
 		<string>3.3.11</string>
 		<string>3.3.8</string>
 		<string>3.3.6</string>
+		<string>3.3.12</string>
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 		<string>3.2.9</string>
@@ -2513,16 +2516,16 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1080}}</string>
+		<string>{{2560, 41}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{596, 759}</string>
+		<string>{2819, 863}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>176E6B4C-3E2A-41C4-A039-31C9A76EEF7F</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>32</integer>
+	<integer>35</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3338,11 +3341,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-06-28T20:32:04Z</date>
+	<date>2020-07-03T07:52:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>201016627</integer>
+	<integer>4218910568</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
@@ -3364,7 +3367,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.11</string>
+	<string>3.3.12</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
