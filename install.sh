@@ -67,7 +67,7 @@ install_cli "Node"       "brew install node"     "! command -v npm"
 install_cli "Go"         "brew install go"       "! command -v go"
 
 install_cli "Rust" \
-  "curl https://sh.rustup.rs -sSf | sh" \
+  "curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh" \
   "! command -v cargo"
 
 asdf_install ruby   irb

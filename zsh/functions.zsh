@@ -75,6 +75,14 @@ function grmb() {
       xargs git branch -d
 }
 
+# - - - -
+# - Fzf -
+# - - - -
+
+function fp() {
+    fzf --preview 'bat {-1} --color=always'
+}
+
 # - - - - -
 # - MISC  -
 # - - - - -
