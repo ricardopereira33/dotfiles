@@ -79,7 +79,7 @@ function grmb() {
 # - Fzf -
 # - - - -
 
-function fp() {
+function pv() {
     fzf --preview 'bat {-1} --color=always'
 }
 
