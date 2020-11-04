@@ -141,7 +141,10 @@ brew_install_app "Postman"     "postman"
 brew_install_app "Docker"      "docker"
 brew_install_app "Tunnelblick" "tunnelblick"
 brew_install_app "VLC"         "vlc"
+brew_install_app "Discord"     "discord"
+brew_install_app "WhatsApp"    "whatsapp"
 
 mas_install_app "Spark"
+mas_install_app "Messenger"
 
 zsh
