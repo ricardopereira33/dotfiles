@@ -143,6 +143,7 @@ brew_install_app "Tunnelblick" "tunnelblick"
 brew_install_app "VLC"         "vlc"
 brew_install_app "Discord"     "discord"
 brew_install_app "WhatsApp"    "whatsapp"
+brew_install_app "Rectangle"   "rectangle"
 
 mas_install_app "Spark"
 mas_install_app "Messenger"
