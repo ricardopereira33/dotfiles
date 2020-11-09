@@ -3,15 +3,13 @@ style = "bold fg:green"
 symbol = " "
 
 [git_status]
-prefix = ""
-suffix = " "
+format = '([$all_status$ahead_behind]($style) ) '
 
 [cmd_duration]
-prefix = ""
-style = "bold #929696"
+format = "[$duration](bold #929696)"
 
 [character]
-style_success = "white"
+success_symbol = "[❯](bold white)"
 
 [python]
 disabled = true
@@ -45,4 +43,3 @@ disabled = true
 
 [aws]
 disabled = true
-

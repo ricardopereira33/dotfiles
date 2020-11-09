@@ -1186,15 +1186,9 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
-	<key>NSNavLastUserSetHideExtensionButtonState</key>
-	<true/>
+	<string>~/Documents/dotfiles/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 448}</string>
-	<key>NSNavPanelExpandedStateForSaveMode</key>
-	<true/>
+	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1210,24 +1204,24 @@
 	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
-	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
-	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
-	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKGdsi0OVtIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
-	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
-	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
-	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
+	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
+	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
+	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oZ2yLQ5W0iUmNzhe
+	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
+	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
+	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
 	AAAAADoAAAAAAAAAAAAAAAAAAAFM
 	</data>
 	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
-	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
-	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
-	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABowsMEVUkbnVsbNINDg8QWk5T
+	Lm9iamVjdHNWJGNsYXNzoIAC0hITFBVaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFi
+	bGVBcnJheaMUFhdXTlNBcnJheVhOU09iamVjdAgRGiQpMjdJTFJUWF5jbnV2eH2IkaCk
+	rAAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
@@ -1236,63 +1230,16 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSTouchBarConfig: full screen</key>
-	<dict>
-		<key>CurrentItems</key>
-		<array>
-			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>iTermTouchBarIdentifierColorPreset</string>
-			<string>tab bar</string>
-			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
-		</array>
-		<key>DefaultItems</key>
-		<array>
-			<string>iTermTouchBarIdentifierManPage</string>
-			<string>iTermTouchBarIdentifierColorPreset</string>
-			<string>iTermTouchBarIdentifierFunctionKeys</string>
-			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>tab bar</string>
-			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
-			<string>iTermTouchBarIdentifierAddMark</string>
-			<string>iTermTouchBarIdentifierPreviousMark</string>
-			<string>iTermTouchBarIdentifierNextMark</string>
-		</array>
-	</dict>
-	<key>NSTouchBarConfig: regular</key>
-	<dict>
-		<key>CurrentItems</key>
-		<array>
-			<string>iTermTouchBarIdentifierManPage</string>
-			<string>iTermTouchBarIdentifierColorPreset</string>
-			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
-			<string>iTermTouchBarIdentifierPreviousMark</string>
-			<string>iTermTouchBarIdentifierNextMark</string>
-		</array>
-		<key>DefaultItems</key>
-		<array>
-			<string>iTermTouchBarIdentifierManPage</string>
-			<string>iTermTouchBarIdentifierColorPreset</string>
-			<string>iTermTouchBarIdentifierFunctionKeys</string>
-			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
-			<string>iTermTouchBarIdentifierAddMark</string>
-			<string>iTermTouchBarIdentifierPreviousMark</string>
-			<string>iTermTouchBarIdentifierNextMark</string>
-		</array>
-	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 124 224 275 0 0 1440 877 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>3435 490 400 129 2560 41 1440 877 </string>
+	<string>0 123 224 275 0 0 2560 1057 </string>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>880 466 799 448 0 0 2560 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 508 620 392 0 0 2560 1057 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>99 293 592 584 0 0 1440 877 </string>
+	<string>410 383 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 40 1440 837 0 0 1440 877 </string>
+	<string>1707 49 850 1008 0 0 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>295 269 934 453 0 0 1440 877 </string>
+	<string>418 462 934 453 0 0 2560 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1951,7 +1898,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>FiraCodeNerdFontComplete-Regular 12</string>
+			<string>FiraCodeNerdFontCompleteM-Regular 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -2496,51 +2443,32 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.11</string>
-		<string>3.3.8</string>
 		<string>3.3.6</string>
+		<string>3.3.8</string>
 		<string>3.3.12</string>
-		<string>3.3.7</string>
-		<string>3.3.9</string>
-		<string>3.2.9</string>
-		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>FiraCode Nerd Font</string>
-		<string>Monaco</string>
 		<string>Fira Code</string>
+		<string>FiraCode Nerd Font Mono</string>
 	</array>
-	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
-	<true/>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1080}}</string>
 		<key>topLeft</key>
-		<string>{916, 784}</string>
+		<string>{402, 769}</string>
 	</dict>
-	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
-	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>176E6B4C-3E2A-41C4-A039-31C9A76EEF7F</string>
+	<string>9C1B6DEB-37DF-47BE-BA13-4463BD4F8BD9</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>46</integer>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>27</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>591196085.86695802</real>
+	<real>603292952.03214502</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
-	<key>NoSyncPersistentRateLimitedUpdates</key>
-	<dict>
-		<key>CheckForUpdatedPythonRuntime</key>
-		<real>595517455.84708905</real>
-	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -2649,14 +2577,6 @@
 				<true/>
 				<key>name</key>
 				<string>path</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>user.user</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2875,14 +2795,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.user.user</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>frame</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2907,14 +2819,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.jobPid</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -2924,14 +2828,6 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.terminalIconName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.lastCommand</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3158,14 +3054,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.user.user</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>id</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3222,7 +3110,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3230,7 +3118,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.path</string>
+				<string>currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3287,14 +3175,8 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
-	<true/>
-	<key>NoSyncScriptNameForStatusBarComponent_engineering.dane.iterm-components.spotify</key>
-	<string>/Users/ricardo.pereira/Library/ApplicationSupport/iTerm2/Scripts/AutoLunch/spotify.py</string>
-	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>590358027.26631701</real>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>590927785.66011405</real>
+	<real>595592229.11803496</real>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -3345,15 +3227,13 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=20</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=60</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-11-03T13:26:15Z</date>
+	<date>2020-11-05T22:31:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>SUUpdateGroupIdentifier</key>
-	<integer>4218910568</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
@@ -3368,8 +3248,6 @@
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>5</integer>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1591623680</real>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
