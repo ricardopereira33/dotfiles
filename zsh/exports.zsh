@@ -2,23 +2,23 @@ export ZSH="$HOME/.oh-my-zsh"
 export UPDATE_ZSH_DAYS=30
 export SVN_EDITOR=nvim
 export EDITOR=nvim
-export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="$HOME/bin::$HOME/.cache/rebar3/bin:$PATH"
-export PATH="/usr/local/opt/curl/bin:$PATH"
-export PATH="/usr/local/Cellar/qt@5.5/5.5.1_1/bin:$PATH"
-export PATH="/usr/local/Cellar/python/2.7.14_3/bin:$PATH"
-export PATH="/usr/local/go/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="$HOME/Library/Python/3.8/bin:$PATH"
-export PATH="$HOME/.rvm/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.asdf/shims/:$PATH"
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:\
+$HOME/bin:\
+$HOME/.cache/rebar3/bin:\
+$HOME/.rbenv/bin:\
+$HOME/.cargo/bin:\
+$HOME/.asdf/shims/:\
+/Users/ricardo.pereira/.pyenv/versions/3.9.0/bin:\
+/usr/local/opt/curl/bin:\
+/usr/local/Cellar/qt@5.5/5.5.1_1/bin:\
+/usr/local/opt/python@3.9/libexec/bin:\
+/usr/local/Cellar/hive/2.3.7/bin:\
+/usr/local/go/bin:\
+/usr/local/sbin:\
+/usr/local/opt/openssl/bin:\
+/usr/local/opt/icu4c/bin:\
+/usr/local/opt/icu4c/sbin
 
-# icu4c & openssl
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/opt/icu4c/bin:$PATH"
-export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/opt/icu4c/include"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig:/usr/local/opt/icu4c/lib/pkgconfig"

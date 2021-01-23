@@ -6,4 +6,3 @@ for file in $DOTFILES_DIR/zsh/*.zsh; do
 done
 
 eval "$(starship init zsh)"
-

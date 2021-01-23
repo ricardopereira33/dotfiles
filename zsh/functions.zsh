@@ -90,3 +90,12 @@ function pv() {
 function randomstr() {
   LC_CTYPE=C tr -dc A-Za-z0-9 < /dev/urandom | fold -w ${1:-32} | head -n 1
 }
+
+# - - - -
+# - ZSH -
+# - - - -
+
+timezsh() {
+  shell=${1-$SHELL}
+  for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
+}

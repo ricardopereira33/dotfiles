@@ -11,6 +11,9 @@ format = "[$duration](bold #929696)"
 [character]
 success_symbol = "[❯](bold white)"
 
+[git_commit]
+disabled = true
+
 [python]
 disabled = true
 
@@ -42,4 +45,16 @@ disabled = true
 disabled = true
 
 [aws]
+disabled = true
+
+[perl]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[swift]
 disabled = true
