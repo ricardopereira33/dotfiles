@@ -91,6 +91,10 @@ function randomstr() {
   LC_CTYPE=C tr -dc A-Za-z0-9 < /dev/urandom | fold -w ${1:-32} | head -n 1
 }
 
+function kill_metals() {
+    kill -9 $(ps -xa | grep java | rg '(\d+) .*' -r '$1' | head -n 1)
+}
+
 # - - - -
 # - ZSH -
 # - - - -

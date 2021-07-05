@@ -11,7 +11,7 @@ $HOME/.asdf/shims/:\
 /Users/ricardo.pereira/.pyenv/versions/3.9.0/bin:\
 /usr/local/opt/curl/bin:\
 /usr/local/Cellar/qt@5.5/5.5.1_1/bin:\
-/usr/local/opt/python@3.9/libexec/bin:\
+/Library/Frameworks/Python.framework/Versions/3.9/bin:\
 /usr/local/Cellar/hive/2.3.7/bin:\
 /usr/local/go/bin:\
 /usr/local/sbin:\
@@ -28,3 +28,15 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Ho
 export GOPATH="$HOME/go"
 export LANG="en_US.UTF-8"
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# GCP
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/ricardo.pereira/Downloads/google-cloud-sdk/path.zsh.inc' ]; then
+  . '/Users/ricardo.pereira/Downloads/google-cloud-sdk/path.zsh.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/ricardo.pereira/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then
+  . '/Users/ricardo.pereira/Downloads/google-cloud-sdk/completion.zsh.inc'
+fi
+
