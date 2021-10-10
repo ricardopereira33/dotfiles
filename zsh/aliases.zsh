@@ -11,3 +11,5 @@ alias d=docker
 alias dc="docker-compose"
 alias dp="docker ps"
 alias dpa="docker ps -a"
+
+# alias docker=podman
