@@ -3,6 +3,7 @@ alias c="clear"
 alias o="open"
 
 alias py="python3"
+alias python="python3"
 alias rb="ruby"
 alias kc="kubectl"
 

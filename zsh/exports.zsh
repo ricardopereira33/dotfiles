@@ -17,7 +17,8 @@ $HOME/.asdf/shims/:\
 /usr/local/sbin:\
 /usr/local/opt/openssl/bin:\
 /usr/local/opt/icu4c/bin:\
-/usr/local/opt/icu4c/sbin
+/usr/local/opt/icu4c/sbin:\
+$HOME/Library/Python/3.9/bin
 
 export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/opt/icu4c/include"
