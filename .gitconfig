@@ -1,22 +1,22 @@
 # This is Git's per-user configuration file.
 [user]
     name = Ricardo Pereira
-    email = ricardo.agp.914@gmail.com
-    signingkey = 30E0F771
+	email = ricardo.pereira@revolut.com
 
 [core]
-    editor = /usr/local/bin/nvim
+    editor = /opt/homebrew/bin/nvim
     pager = diff-so-fancy | less --tabs=4 -RFX
 
 [url "git@github.com:"]
     insteadOf = https://github.com/
 
-[commit]
-    gpgsign = true
+#[commit]
+#    gpgsign = true
 
-[gpg]
-    program = /usr/local/bin/gpg
-
+#[gpg]
+#    program = /usr/local/bin/gpg
+[alias]
+    setmymail = "config user.email 'ricardo.agp.914@gmail.com'"
 [fetch]
     prune = true
 [pull]

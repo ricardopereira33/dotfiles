@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/opt/homebrew/bin/bash
 
 source ./installation/constants.sh
 
@@ -15,7 +15,7 @@ function remove {
 
 function link {
   for DOTFILE_PATH in ${!CONFIG_PATHS[@]}; do
-    ln -s $DOTFILE_PATH ${CONFIG_PATHS[$DOTFILE_PATH]}
+    ln -s "$DOTFILE_PATH" "${CONFIG_PATHS[$DOTFILE_PATH]}"
   done
 }
 

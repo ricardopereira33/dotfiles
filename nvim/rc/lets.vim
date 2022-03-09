@@ -19,13 +19,13 @@ let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
 
 " deoplete + autopairs changes
+" let g:deoplete#enable_at_startup = 1
 let g:AutoPairsMapCR=0
-let g:deoplete#enable_at_startup = 1
 
-call deoplete#custom#option({
-  \ 'auto_complete_delay': 200,
-  \ 'smart_case': v:true,
-  \ })
+"call deoplete#custom#option({
+"  \ 'auto_complete_delay': 200,
+"  \ 'smart_case': v:true,
+"  \ })
 
 
 " session management

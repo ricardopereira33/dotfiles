@@ -12,7 +12,7 @@ eval "$(rbenv init -)"
 source $ZSH/oh-my-zsh.sh
 
 # asdf
-source /usr/local/opt/asdf/asdf.sh
+source /opt/homebrew/opt/asdf/asdf.sh
 
 # Fuzzy Finder
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

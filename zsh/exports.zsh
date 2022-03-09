@@ -2,13 +2,18 @@ export ZSH="$HOME/.oh-my-zsh"
 export UPDATE_ZSH_DAYS=30
 export SVN_EDITOR=nvim
 export EDITOR=nvim
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:\
+export PATH=/opt/homebrew/bin:\
+/opt/local/bin:\
+/opt/local/sbin:\
+/usr/bin:/bin:\
+/usr/local/bin:\
+/usr/sbin:/sbin:\
 $HOME/bin:\
 $HOME/.cache/rebar3/bin:\
 $HOME/.rbenv/bin:\
 $HOME/.cargo/bin:\
 $HOME/.asdf/shims/:\
-/Users/ricardo.pereira/.pyenv/versions/3.9.0/bin:\
+$HOME/.pyenv/versions/3.9.0/bin:\
 /usr/local/opt/curl/bin:\
 /usr/local/Cellar/qt@5.5/5.5.1_1/bin:\
 /Library/Frameworks/Python.framework/Versions/3.9/bin:\
@@ -40,4 +45,3 @@ fi
 if [ -f '/Users/ricardo.pereira/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then
   . '/Users/ricardo.pereira/Downloads/google-cloud-sdk/completion.zsh.inc'
 fi
-
